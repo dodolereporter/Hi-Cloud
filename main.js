@@ -2,6 +2,8 @@ const express = require("express");
 const app = express()
 const port = 8080
 
+const db = require('./config/database')
+
 const indexRoute = require("./routes/index")
 const apiRoute = require("./routes/api")
 
