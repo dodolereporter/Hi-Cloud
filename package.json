@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "hi-cloud",
+  "description": "",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodolereporter/Hi-Cloud.git"
+  },
+  "author": "HiCloud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dodolereporter/Hi-Cloud/issues"
+  },
+  "homepage": "https://github.com/dodolereporter/Hi-Cloud#readme"
+}
