@@ -5,4 +5,4 @@ router.get("/", (req, res) => {
     res.send("Hello World 2");
     console.log("Page API chargée avec succès")
 })
-module.exports = router();
+module.exports = router;
