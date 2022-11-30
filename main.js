@@ -2,12 +2,15 @@ const express = require("express");
 const app = express()
 const port = 8080
 
-const db = require('./config/database')
+const { connection } = require("./config/database");
 
 const indexRoute = require("./routes/index")
-const apiRoute = require("./routes/api")
+const weatherRoute = require("./routes/weather")
+const {getWeatherFromId} = require("./services/weatherService");
 
 app.use("/", indexRoute)
-app.use("/api", apiRoute)
+app.use(express.json());
+app.use("/weather", weatherRoute)
+
 
 app.listen(port, () => {  console.log("Application démarée sur le port : " + port)});
