@@ -10,7 +10,7 @@ const {getWeatherFromId} = require("./services/weatherService");
 
 app.use("/", indexRoute)
 app.use(express.json());
-app.use("/weather", weatherRoute)
+app.use("/api/weather", weatherRoute)
 
 
 app.listen(port, () => {  console.log("Application démarée sur le port : " + port)});

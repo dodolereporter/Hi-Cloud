@@ -89,5 +89,5 @@ EN DEV
 - [@devospecornet](https://github.com/devospecornet)
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/dodolereporter/Hi-Cloud-API/blob/main/LICENSE)
 
